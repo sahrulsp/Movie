@@ -1,0 +1,224 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background-color: #1A1A1D;
+}
+
+.header {
+  background: url(/img/anime/Bg.png) no-repeat center center/cover;
+  height: 803px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.container {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+
+.logo-1 {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.navbar {
+  float: right;
+  margin-top: 12px;
+}
+
+.navbar li {
+  display: block;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  color: #4E4E50;
+}
+
+
+/* TEXT */
+.text {
+  color: white;
+  margin-top: 190px;
+}
+
+.text p {
+  opacity: .5;
+}
+
+
+/* Tombol */
+.btn-watch {
+  background-color: #C3073F;
+  border: 1px solid #C3073F;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.btn-watch:hover,
+.btn-watch:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.btn-watch:active {
+  opacity: .5;
+}
+
+
+.btn-watch a {
+  text-decoration: none;
+  display: block;
+  font-size: medium;
+  color: white;
+}
+
+/* tutup tombol */
+
+.trailer {
+  margin: auto;
+}
+
+.img-trailer {
+  width: 200px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Main Content */
+.main-content {
+  margin: auto;
+  width: 80%;
+
+
+}
+
+.main-content h3 {
+  color: white;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  float: left;
+  width: 150px;
+  height: 173px;
+  margin-right: 22px;
+  transition: transform .2s;
+  margin-bottom: 20px;
+}
+
+.gallery:hover {
+  border: 1px solid #FF4742;
+  transform: scale(1.1);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.desc {
+  padding: 1px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.caption {
+  color: #4E4E50;
+  font-size: 9px;
+}
+
+/* tutup film 1 */
+
+.main-footer {
+  background-color: #4E4E50;
+  margin-top: 220px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+}
+
+.main-footer-2 {
+  height: 80%;
+  position: absolute;
+  margin: auto;
+  margin-left: 100px;
+}
+
+.text-footer {
+  float: left;
+  color: white;
+  margin-left: 130px;
+}
+
+.text-footer h4 {
+  font-weight: 500;
+}
+
+.text-footer a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  opacity: .3;
+  font-weight: 100;
+}
+
+.text-footer a:hover {
+  color: black;
+}
